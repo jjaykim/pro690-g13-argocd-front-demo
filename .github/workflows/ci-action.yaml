@@ -93,7 +93,7 @@ jobs:
           git config --global user.email ${{ secrets.GIT_EMAIL }}
           git config --global user.name ${{ secrets.GIT_NAME }}
           echo ${{ github.sha }}
-          sed -i "s#dnglglmm.*#dnglglmm/pro690-g13-argocd-server-demo:sha-${{ github.sha }}#g" deployment.yaml
+          sed -i "s#dnglglmm.*#dnglglmm/pro690-g13-argocd:sha-${{ github.sha }}#g" deployment.yaml
           git add -A
           git commit -am "Update image for - ${{ github.sha }}"
       - run: echo ${{ github }}
