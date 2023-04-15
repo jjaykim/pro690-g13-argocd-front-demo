@@ -10,7 +10,7 @@ function App() {
         >
           <div style={{ fontSize: 50 }}>PRO690 Final Project</div>
 
-          <div style={{ marginLeft: 20, fontSize: 50 }}>:version 1</div>
+          <div style={{ marginLeft: 20, fontSize: 50 }}>:version 2</div>
         </div>
 
         <img src={logo} className="App-logo" alt="logo" />
